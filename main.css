@@ -1,0 +1,134 @@
+html{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.back_drop{
+    background: url(images/background.jpg);
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+}
+
+.logo{
+    height: 50px
+}
+
+.new_block {
+    /* border: 1px solid lightgrey; 
+    box-shadow: rgb(0, 0, 0);*/
+    border-radius: 1%;
+    max-width: 900px; 
+    margin: auto;
+    /* margin-top: 20px; */
+    padding-left: 70%;
+    padding right: 70%; 
+    position: absolute;
+  top: 50%;
+  left: 20px;
+  right: 20px;
+  background: white;
+  padding: 20px;
+  transform: translateY(-50%);
+  resize: vertical;
+  overflow: auto;
+  box-shadow: -8px -4px 6px -6px lightslategrey;
+}
+
+
+.menu_logo{
+    height: 42px;
+
+}
+.menu {
+    display: inline-flex
+}
+.menu_item{
+ margin-left: 25px;
+}
+.menu_item:hover{
+    border-bottom: solid;
+    border-color: purple;
+    border-width: thick;
+}
+
+.r_menu{
+    display: inline-flex;
+    float: right;
+    align-items: center;   
+}
+.intro_text{
+    width: 50%;
+}
+
+button {
+    margin-left: 10px;
+    background-color: #9042e6;
+    border-radius: 5%;
+    color: white;
+    border: none;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.abdomen{
+    display: flex;
+}
+.front_art{
+    height: 350px;
+    float: right;
+    margin-left: 100px;
+
+}
+.mini_icon {
+    height: 60px;
+}
+
+.thorax{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+span{
+    color: rgb(8, 108, 150);
+}
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+h6{
+    margin: 0px;
+}
+.ceo{
+    margin-bottom: 0px;
+}
+.lil_link{
+    height: 25px;
+    margin-top: 0px;
+}
+.ent_e {
+        height: 25px;
+        border: none;
+        background-color: #e8eeff;
+        font-size: small;
+        padding: 6px;
+        border-radius: 8pt;
+        
+    }
+ 
